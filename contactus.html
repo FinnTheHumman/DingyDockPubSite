@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Contact Us
+    </title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+    <link href="css/business-casual.min.css" rel="stylesheet" />
+    <style>
+        .heading {
+            text-align: center;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        #heading {
+            font-size: 70px;
+            text-decoration: solid underline;
+        }
+
+        .survey-container {
+            padding-left: 20%;
+            padding-right: 20%;
+            height: 500px;
+            align-content: center;
+        }
+
+        .survey {
+            height: 1000px;
+        }
+
+        .imput {
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        .container1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+        <span class="site-heading-lower">The Dingy Dock Pub</span>
+    </h1>
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">The Dingy Dock
+                Pub</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="products.html">Ferry and Menu</a>
+                    </li>
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item active px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="contactus.html">Contact Us
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container1">
+        <div class="survey">
+            <div class="heading">
+                <h1 id="heading">
+                    Contact Us
+                </h1>
+                <p id="Name">
+                    <lable for="Name"> Name:</lable>
+                    <input class="imput" type="text" name="name" required />
+                </p>
+                <p id="Date">
+                    <lable for="Date"> Date:</lable>
+                    <input class="imput" type="text" name="Date" required />
+                </p>
+                <p id="Telephone">
+                    <lable for="telephone"> Telephone:</lable>
+                    <input class="imput" type="text" name="telephone" required />
+                </p>
+                <p id="Email"> 
+                    <lable for="Email"> Email:</lable>
+                    <input class="imput" type="text" name="Email" required />
+                </p>
+                <p id="comments">
+                    <lable for="textbox"> Comments:</lable>
+                    <div>
+                        <textarea class="imput" name="textbox" rows=3> </textarea>
+                    </div>
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer text-faded text-center py-5">
+    <div class="container">
+        <p class="m-0 small">Copyright &copy; Seamus Murphy 2019</p>
+    </div>
+</footer>
+
+<link rel="icon" type="image/png" href="http://dinghydockpub.com/wp-content/uploads/2013/07/Dinghy-Dock-logo.png" />
+</html>
